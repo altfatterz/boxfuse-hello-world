@@ -12,7 +12,7 @@ boxfuse run '-envvars.SPRING_PROFILES_ACTIVE=dev'
 
 The `server.port` is not taken into account in case of custom Spring profiles.
 
-In dev mode (running on VirtualBox) with the `-portsmap.http` we can configure how the port.
+In dev mode (running on VirtualBox) with the `-portsmap.http` we can configure the port.
 
 On AWS we need to use the `-ports.http`. This will configure the load balancer port.
 
